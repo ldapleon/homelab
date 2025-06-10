@@ -14,6 +14,6 @@ Since I startet tinkering with different Linux distributions like Debian, Ubuntu
 
 At the moment my cluster consists of the following components:
 
-HP Prodesk 400 G3 mini (i3 CPU, 16 GB RAM, 256 SSD)
+HP Prodesk 400 G3 mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
 
-Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD)
+Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD) | Worker node
