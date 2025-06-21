@@ -17,3 +17,12 @@ At the moment my cluster consists of the following components:
 HP Prodesk 400 G3 mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
 
 Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD) | Worker node
+
+
+## Software
+
+As mentioned before, the whole K8s-cluster runs on Talos Linux OS.
+The way Talos Linux works is it takes control over the entire disk it is installed on and just exposes an API you can interact with via the Talos CLI.
+The config file contains all the necessary information about the clusters nodes as well as a TLS-certificate to ensure secure a connection.
+As long as you have the config file of your cluster locally available, you can interact with the cluster via the CLI.
+
