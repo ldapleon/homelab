@@ -25,5 +25,5 @@ Intel NUC7i5BNK (i5 CPU, 8 GB RAM, 256 GB SSD) | Worker node
 As mentioned before, my k8s-cluster runs on Talos Linux OS.
 The way Talos Linux works is it takes control over the entire disk it is installed on and just exposes an API you can interact with via the Talos CLI.
 The config file contains all the necessary information about the clusters nodes as well as a TLS-certificate to ensure a secure connection.
-As long as you have the config file of your cluster locally available, you can interact with the cluster via the CLI.
+As long as you have the config file of your cluster locally available, you can interact with the cluster via the Talos CLI.
 
