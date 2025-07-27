@@ -18,6 +18,7 @@ HP Prodesk 400 G3 mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
 
 Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD) | Worker node
 
+Intel NUC7i5BNK (i5 CPU, 8 GB RAM, 256 GB SSD) | Worker node
 
 ## Software
 
