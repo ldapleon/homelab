@@ -27,3 +27,5 @@ The way Talos Linux works is it takes control over the entire disk it is install
 The config file contains all the necessary information about the clusters nodes as well as a TLS-certificate to ensure a secure connection.
 As long as you have the config file of your cluster locally available, you can interact with the cluster.
 
+
+Tailscale
