@@ -14,7 +14,7 @@ After running that for a few months I deciced to start over and spin up a local 
 
 At the moment my cluster consists of the following components:
 
-HP Prodesk 400 G3 mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
+HP Prodesk 400 G5 Desktop Mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
 
 Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD) | Worker node
 
