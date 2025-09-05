@@ -1,9 +1,9 @@
 # 🏠 Homelab
-
+<img width="330" height="350" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" />
 # Introduction
 
 This repo contains all of the configuration and documentation of my homelab.
-<img width="527" height="512" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" />
+
 
 The purpose of my homelab is to learn and to have fun. 
 
