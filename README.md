@@ -1,6 +1,6 @@
 # 🏠 Homelab
 
-<img width="280" height="310" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" />
+<img width="280" height="310" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" /> <img width="200" height="200" alt="13804887" src="https://github.com/user-attachments/assets/49daf0ac-a696-491a-a6ab-a4ba00dbe39d" />
 
 
 # Introduction
@@ -32,10 +32,3 @@ The config file contains all the necessary information about the clusters nodes 
 As long as you have the config file of your cluster locally available, you can interact with the cluster.
 
 
-Tailscale
-
-
-
-
-
-![Sidero_Coloured-1](https://github.com/user-attachments/assets/cc6f5e40-ae08-4b4b-b9c9-69b2f99d0b62)
