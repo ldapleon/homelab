@@ -1,6 +1,6 @@
 # 🏠 Homelab
 
-<img width="280" height="310" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" /> <img width="280" height="280" alt="13804887" src="https://github.com/user-attachments/assets/49daf0ac-a696-491a-a6ab-a4ba00dbe39d" />
+<img width="280" height="310" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" /> <img width="230" height="230" alt="13804887" src="https://github.com/user-attachments/assets/49daf0ac-a696-491a-a6ab-a4ba00dbe39d" />
 
 
 # Introduction
