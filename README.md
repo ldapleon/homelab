@@ -1,6 +1,6 @@
 # 🏠 Homelab
 
-<img width="280" height="310" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" /> <img width="230" height="230" alt="13804887" src="https://github.com/user-attachments/assets/49daf0ac-a696-491a-a6ab-a4ba00dbe39d" />
+<img width="280" height="300" alt="kubernetes" src="https://github.com/user-attachments/assets/61d09b03-57c9-4dbe-a097-5e5854fe9322" /> <img width="230" height="230" alt="13804887" src="https://github.com/user-attachments/assets/49daf0ac-a696-491a-a6ab-a4ba00dbe39d" />
 
 
 # Introduction
@@ -23,6 +23,8 @@ HP Prodesk 400 G5 Desktop Mini (i3 CPU, 16 GB RAM, 256 SSD) | Control plane
 Lenovo ThinkCentre M265q (amd A59120 CPU, 16 GB RAM, 256 SSD) | Worker node
 
 Intel NUC7i5BNK (i5 CPU, 8 GB RAM, 256 GB SSD) | Worker node
+
+## Infrastrcture
 
 ## Software
 
