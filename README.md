@@ -33,3 +33,9 @@ As long as you have the config file of your cluster locally available, you can i
 
 
 Tailscale
+
+
+
+
+
+![Sidero_Coloured-1](https://github.com/user-attachments/assets/cc6f5e40-ae08-4b4b-b9c9-69b2f99d0b62)
