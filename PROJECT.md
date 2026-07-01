@@ -18,10 +18,17 @@ A production-inspired Kubernetes homelab running on a three-node Proxmox cluster
 
 ## Phase 0
 
-### Lesson 1
-- Repository created
-- Documentation structure created
-- README added
-
-### Next Step
+### Completed
+- Repository structure
 - Hardware inventory
+- Network documentation
+- Services inventory
+- Storage documentation
+- Backup strategy
+- Architecture documentation
+
+### Lessons Learned
+
+- A well-documented infrastructure is easier to maintain.
+- Existing infrastructure should be documented before changes are made.
+- Design decisions should always be documented.
