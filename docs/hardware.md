@@ -4,22 +4,22 @@
 
 | Node | Model | CPU | RAM | Storage | Purpose |
 |------|-------|-----|-----|---------|---------|
-| pve01 | HP ProDesk 400 G5 Mini | Intel Core i5 | 16 GB | 256 GB SSD | CasaOS / Docker |
-| pve02 | Lenovo Mini PC | AMD CPU | 16 GB | 256 GB SSD | Infrastructure Services |
-| pve03 | Intel NUC | Intel Core i5 | 8 GB | 256 GB SSD (System) + 2 TB SSD | Storage / Future Kubernetes |
+| pve-node-1 | HP ProDesk 400 G5 Desktop Mini | Intel Core i3 | 16 GB RAM | 256 GB SSD | CasaOS / Docker |
+| pve-node-2 | Lenovo Thinkcentre M265q | AMD A59120 CPU | 16 GB RAM | 256 GB SSD | Infrastructure Services |
+| pve-node-3 | Intel NUC7i5BNK | Intel Core i5 | 8 GB | 2 TB SSD | Storage / Future Kubernetes |
 
 ---
 
 ## Node Details
 
-### pve01
+### pve-node-1
 
 **Hostname**
-- pve01
+- pve-node-1
 
 **Hardware**
-- HP ProDesk 400 G5 Mini
-- Intel Core i5
+- HP ProDesk 400 G5 Desktop Mini
+- Intel Core i3
 - 16 GB RAM
 - 256 GB SSD
 
@@ -32,14 +32,14 @@
 
 ---
 
-### pve02
+### pve-node-2
 
 **Hostname**
-- pve02
+- pve-node-2
 
 **Hardware**
-- Lenovo Mini PC
-- AMD CPU
+- Lenovo Thinkcentre M265q
+- AMD A59120 CPU
 - 16 GB RAM
 - 256 GB SSD
 
@@ -50,16 +50,15 @@
 
 ---
 
-### pve03
+### pve-node-3
 
 **Hostname**
-- pve03
+- pve-node-3
 
 **Hardware**
-- Intel NUC
+- Intel NUC7i5BNK
 - Intel Core i5
 - 8 GB RAM
-- 256 GB SSD
 - 2 TB SSD
 
 **Current Services**
