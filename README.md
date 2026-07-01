@@ -34,3 +34,13 @@ The config file contains all the necessary information about the clusters nodes 
 As long as you have the config file of your cluster locally available, you can interact with the cluster.
 
 
+## Project Progress
+
+- [x] Repository created
+- [x] Documentation structure
+- [x] Project journal
+- [ ] Hardware inventory
+- [ ] Network inventory
+- [ ] Service inventory
+- [ ] Talos planning
+- [ ] Kubernetes deployment
