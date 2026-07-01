@@ -17,3 +17,27 @@
       ├── Crafty
       ├── Portainer
       └── ...
+
+
+
+Target architecture:
+
+
+                    Internet
+                        │
+                   Fritz!Box
+                        │
+                 MetalLB + Ingress
+                        │
+              Kubernetes Cluster
+      ┌──────────────┼──────────────┐
+      │              │              │
+ talos-cp-01   talos-worker-01  talos-worker-02
+      │              │              │
+      └──────────────┼──────────────┘
+                     │
+                 NFS Storage
+                     │
+         Persistent Volumes (PVCs)
+                     │
+      Jellyfin • Homepage • Crafty • ...
