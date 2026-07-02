@@ -37,9 +37,9 @@ The cluster uses multiple network layers:
 
 | Node | Role | IP Address | Status |
 |-----|------|------------|--------|
-| talos-cp-01 | Control Plane | TBD | Planned |
-| talos-worker-01 | Worker | TBD | Planned |
-| talos-worker-02 | Worker | TBD | Planned |
+| talos-cp-1 | Control Plane | TBD | Planned |
+| talos-worker-1 | Worker | TBD | Planned |
+| talos-worker-2 | Worker | TBD | Planned |
 
 The Talos nodes require static IP addresses or DHCP reservations.
 
