@@ -19,16 +19,15 @@ This document describes the physical and logical design of the Talos Kubernetes 
 
 ### Why one Control Plane?
 
-For my purposes right now, it is sufficient and it is always good to start small and scale up later.
+For my current learning environment, a single control plane node is sufficient. It keeps the cluster simple, reduces resource usage and can easily be expanded to a highly available three-node control plane later.
 
 ### Why this VM placement?
 
-My third PVE node has no VMs or Containers at the moment and only the SSD is used for NFS. 
-Therefore it would be a good place to put the controlplane node.
+The third Proxmox node currently hosts no virtual machines or containers. Apart from Proxmox itself, the system mainly provides the NFS share. This makes it a suitable location for the Talos control plane VM.
 
 ### Resource Allocation
 
-Like I said, it is better to start small and scale up later if needed. For my learning purposes the ressoruces should be enough.
+The initial resource allocation is intentionally conservative. Kubernetes allows resources to be adjusted later if workloads require additional CPU or memory.
 
 ## Future Improvements
 
