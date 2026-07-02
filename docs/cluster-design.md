@@ -24,7 +24,7 @@ For my purposes right now, it is sufficient and it is always good to start small
 ### Why this VM placement?
 
 My third PVE node has no VMs or Containers at the moment and only the SSD is used for NFS. 
-There it would be a good place to put the controlplane node.
+Therefore it would be a good place to put the controlplane node.
 
 ### Resource Allocation
 
