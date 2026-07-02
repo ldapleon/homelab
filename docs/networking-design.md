@@ -79,3 +79,71 @@ Example future pool:
 
 ```text
 192.168.188.xxx - 192.168.188.xxx
+
+
+The exact range will be chosen after checking which IP addresses are free.
+
+
+
+Ingress Design
+Ingress will be used for HTTP and HTTPS access to applications.
+
+Example:
+
+Hostname	Target Application
+grafana.home.lab	Grafana
+jellyfin.home.lab	Jellyfin
+argocd.home.lab	Argo CD
+homepage.home.lab	Homepage
+DNS Design
+Pi-hole will provide internal DNS records.
+
+Example:
+
+DNS Record	Target
+grafana.home.lab	Ingress IP
+jellyfin.home.lab	Ingress IP
+argocd.home.lab	Ingress IP
+All application hostnames will point to the Ingress LoadBalancer IP.
+
+Design Decisions
+Why Cilium?
+Cilium will be used as the Kubernetes CNI because it is modern, powerful and widely used in cloud-native environments.
+
+Why MetalLB?
+MetalLB allows Kubernetes services to receive IP addresses from the local home network.
+
+This is required because the homelab does not use a cloud provider load balancer.
+
+Why Ingress?
+Ingress provides a clean way to expose multiple web applications through a single entry point.
+
+Instead of accessing services by IP and port, applications can be reached by DNS names.
+
+
+
+Future Improvements:
+
+Define fixed Talos node IPs
+
+Define MetalLB IP pool
+
+Add internal DNS records
+
+Add cert-manager
+
+Add TLS certificates
+
+Evaluate VLAN segmentation
+
+
+
+Lessons Learned:
+
+Kubernetes uses multiple network layers.
+
+Pod and service networks are internal to the cluster.
+
+MetalLB bridges Kubernetes services into the home network.
+
+Ingress provides clean HTTP/HTTPS routing.
