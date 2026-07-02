@@ -42,3 +42,29 @@ Talos expects a full machine / VM, so a LXC would not be sufficient.
 - Infrastructure as Code
 - Documentation first
 - Reproducibility
+
+
+
+                Proxmox Cluster
+
+       pve-node-1
+           │
+           └── talos-cp-01
+
+       pve-node-2
+           │
+           └── talos-worker-01
+
+       pve-node-3
+           │
+           └── talos-worker-02
+
+                    │
+
+            Kubernetes Cluster
+                    │
+      ┌─────────────┼─────────────┐
+      │             │             │
+ Applications   Networking    Monitoring
+                    │
+               NFS Storage
