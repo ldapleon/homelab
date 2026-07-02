@@ -39,8 +39,8 @@ As long as you have the config file of your cluster locally available, you can i
 - [x] Repository created
 - [x] Documentation structure
 - [x] Project journal
-- [ ] Hardware inventory
-- [ ] Network inventory
-- [ ] Service inventory
+- [x] Hardware inventory
+- [x] Network inventory
+- [x] Service inventory
 - [ ] Talos planning
 - [ ] Kubernetes deployment
