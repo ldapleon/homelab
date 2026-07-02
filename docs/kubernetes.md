@@ -68,3 +68,12 @@ Talos expects a full machine / VM, so a LXC would not be sufficient.
  Applications   Networking    Monitoring
                     │
                NFS Storage
+
+
+## Design Principles
+
+- Keep it simple
+- Build iteratively
+- Document every decision
+- Prefer understanding over automation
+- Add features only when there is a real use case
