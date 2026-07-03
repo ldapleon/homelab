@@ -19,6 +19,6 @@ This section documents the current production network.
 
 | Name | IP Address | Status |
 |------|------------|--------|
-| talos-cp-01 | 192.168.188.69 | Planned |
-| talos-worker-01 | TBD | Planned |
-| talos-worker-02 | TBD | Planned |
+| talos-cp-1 | 192.168.188.69 | Planned |
+| talos-worker-1 | TBD | Planned |
+| talos-worker-2 | TBD | Planned |

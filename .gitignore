@@ -1,0 +1,56 @@
+# ==================================================
+# Talos
+# ==================================================
+
+# Generated machine configurations (contain secrets)
+talos/clusterconfig/
+
+# Optional: keep the directory structure in Git
+!talos/clusterconfig/.gitkeep
+
+# ==================================================
+# Kubernetes
+# ==================================================
+
+# Local kubeconfig (if you ever store one in the repo)
+kubeconfig
+*.kubeconfig
+
+# ==================================================
+# Backups
+# ==================================================
+
+# Temporary backup files
+*.bak
+*.backup
+*.tmp
+
+# ==================================================
+# Editors
+# ==================================================
+
+# Vim
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# ==================================================
+# Operating System
+# ==================================================
+
+# macOS
+.DS_Store
+
+# Linux trash files
+.Trash-*
+
+# ==================================================
+# Logs
+# ==================================================
+
+*.log
