@@ -32,3 +32,19 @@ A production-inspired Kubernetes homelab running on a three-node Proxmox cluster
 - A well-documented infrastructure is easier to maintain.
 - Existing infrastructure should be documented before changes are made.
 - Design decisions should always be documented.
+
+
+## Project Milestones
+
+- [x] Repository structure created
+- [x] Architecture documented
+- [x] Talos control plane deployed
+- [x] Kubernetes API available
+- [x] Backup strategy implemented
+- [ ] CasaOS storage migration
+- [ ] Worker nodes deployed
+- [ ] Cilium installed
+- [ ] MetalLB installed
+- [ ] Traefik installed
+- [ ] Flux CD installed
+- [ ] First application deployed
