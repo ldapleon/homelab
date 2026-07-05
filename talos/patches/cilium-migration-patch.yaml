@@ -1,0 +1,7 @@
+# cilium-migration-patch.yaml
+cluster:
+  network:
+    cni:
+      name: none
+  proxy:
+    disabled: true
