@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - clusterissuer/selfsigned.yaml
+  - certificates/root-ca.yaml
+  - clusterissuer/homelab-ca.yaml
+  - certificates/wildcard-home-arpa.yaml
