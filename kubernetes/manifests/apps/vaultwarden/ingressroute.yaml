@@ -1,0 +1,21 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+
+metadata:
+  name: vaultwarden
+  namespace: vaultwarden
+
+spec:
+  entryPoints:
+    - websecure
+
+  routes:
+    - match: Host(`vaultwarden.home.arpa`)
+      kind: Rule
+
+      services:
+        - name: vaultwarden
+          port: 80
+
+  tls:
+    secretName: vaultwarden-home-arpa-tls

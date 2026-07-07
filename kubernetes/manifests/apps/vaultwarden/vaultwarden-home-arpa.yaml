@@ -1,0 +1,16 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+
+metadata:
+  name: vaultwarden-home-arpa
+  namespace: vaultwarden
+
+spec:
+  secretName: vaultwarden-home-arpa-tls
+
+  dnsNames:
+    - vaultwarden.home.arpa
+
+  issuerRef:
+    kind: ClusterIssuer
+    name: homelab-ca-issuer

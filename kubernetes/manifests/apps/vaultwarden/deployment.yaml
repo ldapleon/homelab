@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vaultwarden
+  namespace: vaultwarden
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: vaultwarden
+
+  template:
+    metadata:
+      labels:
+        app: vaultwarden
+
+    spec:
+      containers:
+        - name: vaultwarden
+
+          image: vaultwarden/server:1.34.3
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 80
+              name: http
+
+          env:
+            - name: DOMAIN
+              value: "https://vaultwarden.home.arpa"
+
+            - name: SIGNUPS_ALLOWED
+              value: "true"
+
+            - name: ADMIN_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: vaultwarden-secret
+                  key: ADMIN_TOKEN
+
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 20
+
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 10
