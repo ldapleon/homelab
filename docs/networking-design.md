@@ -82,3 +82,18 @@ Example future pool:
 
 
 The exact range will be chosen after checking which IP addresses are free.
+
+
+
+# Cilium & Hubble
+
+## Zweck
+
+Cilium ist das CNI des Kubernetes-Clusters und ersetzt kube-proxy.
+
+Hubble wird für Netzwerk-Observability genutzt und zeigt Netzwerk-Flows zwischen Pods, Services und externen Zielen.
+
+## Zugriff
+
+```text
+https://hubble.home.arpa
