@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - pve-node-1-home-arpa.yaml
+  - pve-node-2-home-arpa.yaml
+  - pve-node-3-home-arpa.yaml
