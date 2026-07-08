@@ -22,3 +22,38 @@ This section documents the current production network.
 | talos-cp-1 | 192.168.188.69 | Planned |
 | talos-worker-1 | TBD | Planned |
 | talos-worker-2 | TBD | Planned |
+
+
+
+# DNS-Architektur im Homelab
+
+## Ziel
+
+Das Homelab verwendet Pi-hole als zentralen DNS-Server für das Heimnetz und Unbound als rekursiven DNS-Resolver.
+
+Dadurch werden folgende Ziele erreicht:
+
+- lokale DNS-Namen wie `vaultwarden.home.arpa`, `pihole.home.arpa`, `longhorn.home.arpa`
+- Werbe- und Tracking-Filterung über Pi-hole
+- rekursive DNS-Auflösung über Unbound
+- DNSSEC-Validierung
+- weniger Abhängigkeit von externen DNS-Anbietern wie Cloudflare, Google oder Quad9
+
+---
+
+## Architektur
+
+```text
+Clients
+  ↓
+FRITZ!Box / DHCP
+  ↓
+Pi-hole
+  ↓
+Unbound
+  ↓
+Root DNS Server
+  ↓
+TLD DNS Server
+  ↓
+Authoritative DNS Server
