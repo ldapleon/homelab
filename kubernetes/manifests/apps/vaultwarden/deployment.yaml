@@ -32,7 +32,7 @@ spec:
               value: "https://vaultwarden.home.arpa"
 
             - name: SIGNUPS_ALLOWED
-              value: "true"
+              value: "false"
 
             - name: ADMIN_TOKEN
               valueFrom:
@@ -51,3 +51,13 @@ spec:
               path: /
               port: 80
             initialDelaySeconds: 10
+
+          volumeMounts:
+          - name: vaultwarden-data
+            mountPath: /data
+
+      volumes:
+        - name: vaultwarden-data
+          persistentVolumeClaim:
+            claimName: vaultwarden-data
+        

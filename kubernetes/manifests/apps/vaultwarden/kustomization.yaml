@@ -8,3 +8,4 @@ resources:
   - service.yaml
   - vaultwarden-home-arpa.yaml
   - ingressroute.yaml
+  - pvc.yaml
