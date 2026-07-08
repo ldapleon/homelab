@@ -1,0 +1,18 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: headlamp
+  namespace: headlamp
+spec:
+  entryPoints:
+    - websecure
+
+  routes:
+    - match: Host(`headlamp.home.arpa`)
+      kind: Rule
+      services:
+        - name: headlamp
+          port: 80
+
+  tls:
+    secretName: headlamp-home-arpa-tls

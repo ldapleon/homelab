@@ -1,0 +1,16 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+
+metadata:
+  name: headlamp-home-arpa
+  namespace: headlamp
+
+spec:
+  secretName: headlamp-home-arpa-tls
+
+  dnsNames:
+    - headlamp.home.arpa
+
+  issuerRef:
+    kind: ClusterIssuer
+    name: homelab-ca-issuer
