@@ -5,6 +5,7 @@ resources:
   - gotk-sync.yaml
 
   - ../infrastructure/networking.yaml
+  - ../infrastructure/ingress.yaml
   - ../infrastructure/storage.yaml
   - ../infrastructure/monitoring.yaml
 
