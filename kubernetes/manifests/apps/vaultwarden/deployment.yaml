@@ -32,7 +32,7 @@ spec:
               value: "https://vaultwarden.home.arpa"
 
             - name: SIGNUPS_ALLOWED
-              value: "false"
+              value: "true"
 
             - name: ADMIN_TOKEN
               valueFrom:
